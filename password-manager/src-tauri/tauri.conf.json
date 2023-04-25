@@ -7,7 +7,7 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "password-manager",
+    "productName": "Password Manager",
     "version": "0.0.0"
   },
   "tauri": {
@@ -27,7 +27,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.password.manage",
       "targets": "all"
     },
     "security": {
@@ -40,9 +40,17 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "password-manager",
+        "title": "Password Manager",
         "width": 800,
-        "height": 600
+        "height": 600,
+        "visible": false
+      },
+      {
+        "width": 350,
+        "height": 330,
+        "decorations": false,
+        "url": "/splash-screen.html",
+        "label": "splashscreen"
       }
     ]
   }
