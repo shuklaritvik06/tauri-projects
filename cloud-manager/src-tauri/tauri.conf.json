@@ -27,7 +27,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.cloud.manage",
       "targets": "all"
     },
     "security": {
@@ -40,9 +40,17 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "cloud-manager",
+        "title": "Cloud Manager",
         "width": 800,
-        "height": 600
+        "height": 600,
+        "visible": false
+      },
+      {
+        "width": 350,
+        "height": 330,
+        "decorations": false,
+        "url": "/splash-screen.html",
+        "label": "splashscreen"
       }
     ]
   }
