@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { invoke } from "@tauri-apps/api/tauri";
+import PokemonPage from "./pages/PokemonPage";
 
 window.document.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
@@ -8,7 +9,11 @@ window.document.addEventListener("DOMContentLoaded", () => {
 });
 
 function App() {
-  return <div></div>;
+  return (
+    <div className="w-screen h-screen bg-white">
+      <PokemonPage />
+    </div>
+  );
 }
 
 export default App;
