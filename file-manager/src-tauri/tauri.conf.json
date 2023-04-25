@@ -40,9 +40,16 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "file-manager",
+        "title": "File Manager",
         "width": 800,
         "height": 600
+      },
+      {
+        "width": 350,
+        "height": 330,
+        "decorations": false,
+        "url": "/splash-screen.html",
+        "label": "splashscreen"
       }
     ]
   }
